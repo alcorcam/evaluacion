@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="autor" content="Alberto Cornejo Campos">
+    <meta name="description" content="Hoja de Vida">
+    <meta name="keywords" content="Vida, Cornejo, Alberto, educacion">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educación</title>
+  </head>
+<body>
+  <header>
+    <svg width="100px" height="100px" viewBox="0 0 100 100">
+      <image width="100px" height="100px" xlink:href="imagenes/iniciales.svg"></image>
+    </svg>
+  </header>
+  <h1>Hoja de Vida</h1>
+  <p><h2>Datos Personales</h2></p>
+  <h3>Nombres:</h3>Luis Alberto<br>
+  <h3>Apellidos:</h3>Cornejo Campos <br>
+  <h3>Fecha Nacimiento:</h3>06/04/1977 <br>
+  <h3>Lugar Nacimiento:</h3>Chiclayo <br>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+  </nav>
+    <h2>Educación</h2>
+    <table border="1">
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culmino?</th>
+      </tr>
+      <tr>
+      <td>2005</td>
+      <td>Universidad Pedro Ruiz Gallo</td>
+      <td>Lambayeque</td>
+      <td>si</td>
+      </tr>
+      <tr>
+      <td>2008</td>
+      <td>Universidad Cesár Vallejo</td>
+      <td>Lambayeque</td>
+      <td>si</td>
+      </tr>
+    </table>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend><b>Agregar Estudios</b></legend>
+        <label for="anio"><b>Año:</b></label>
+        <select name="anio">
+          <option value="1">2001</option>
+          <option value="2">2002</option>
+          <option value="3">2003</option>
+          <option value="4">2004</option>
+          <option value="5">2005</option>
+          <option value="6">2006</option>
+          <option value="7">2007</option>
+          <option value="8">2008</option>
+        </select><br>
+        <label for="instituciones"><b>Instituciones</b></label>
+        <input type="text" name="instituciones" placeholder="Institucion"required><br>
+        <label for="lugar"><b>Lugar</b></label>
+        <input type="text" name="Lugar" placeholder="direccion" maxlength="30"><br>
+        <label for="confirmacion">¿Culminó?</label>
+        <input type="radio" name="confirmacion" value="si">Si
+        <input type="radio" name="confirmacion" value="no">No
+        <br>
+        <input type="submit" name="enviar" value="enviar">
+      </fieldset>
+    </form>
+  <footer>
+    <h2>Contactos:</h2>
+    <ul>
+      <li><b>Correo: </b><a href="mailto:albertocornejocampos@gmail.com">albertocornejocampos@gmail.com</a></li>
+      <li><b>Telefono: </b>966169664</li>
+      <li><b>Dirección:</b> San Martin 406 Monsefú Chiclayo Lambayeque</li>
+    </ul>
+  </footer>
+</body>
+</html>
